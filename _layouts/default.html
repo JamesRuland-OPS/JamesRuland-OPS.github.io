@@ -30,21 +30,44 @@
 					href="https://www.hhs.gov/about/programs/index.html">programs</a>.</p>
 			<p>HHS, as an umbrella organization, has its own GitHub organizational account that hosts repos, and this GitHub.io page.</p>
 		</div>
-			<div class='margin1 col6 pad4y nav'> <a href='#accounts' class='truncate contain clearfix pad2 keyline-bottom'><span
+		<div class='margin1 col6 pad4y nav'> <a href='#policies' class='truncate contain clearfix pad2 keyline-bottom'><span
+					class="icon" style="background-image: url({{site.baseurl}}/images/icons_gly/104-index-cards.png);"></span>
+				<span class='prose'>HHS Policies & Documentation</span>
+			</a>
+			<a href='#accounts' class='truncate contain clearfix pad2 keyline-bottom'><span
 						class="icon" style="background-image: url({{site.baseurl}}/images/icons_gly/190-bank.png);"></span>
             	<span class='prose'>HHS-related GitHub Accounts</span>
         		</a>
-			<a href='#repos' class='truncate contain clearfix pad2 keyline-bottom'><span class="icon"
+			<a href='#repos' class='truncate contain clearfix pad2'><span class="icon"
 					style="background-image: url({{site.baseurl}}/images/icons_gly/36-toolbox.png);"></span>
-				<span class='prose'>HHS-related GitHub Repositories</span> </a> <a href='#policies'
-					class='truncate contain clearfix pad2'><span class="icon"
-						style="background-image: url({{site.baseurl}}/images/icons_gly/104-index-cards.png);"></span>
-					<span class='prose'>HHS Policies & Documentation</span>
-				</a>
+				<span class='prose'>HHS-related GitHub Repositories</span> </a>
   		</div>
-  	</section>
-    <!-- Middle section -->
+	</section> <!-- Middle section -->
     <main class='limiter pad2y clearfix'>
+		<!-- Policies -->
+		<div class='col10 pad4y'>
+			<h2><a id='policies' href='#policies' class='truncate contain clearfix pad2 keyline-bottom'><span class="icon"
+						style="background-image: url({{site.baseurl}}/images/icons_gly/104-index-cards.png);"></span><span
+						class='prose'>HHS Policies & Documentation</span></a>
+			</h2>
+			<table>
+				{% for policy in site.data.policies %}
+				<tr>
+					<td style="text-align:center"><span class='logo'><img
+								src="{{site.baseurl}}/images/icons_gly/{{policy.icon}}.png" /></span>
+					</td>
+					<td style="text-align:center"><a href="{{site.baseurl}}/{{policy.url}}">{{policy.name}}</a>
+					</td>
+					<td>{{policy.description}}
+						{% if policy.document_number %}<br><small><strong>Document #:</strong>
+							{{policy.document_number}}</small>{% endif %}
+						{% if policy.last_reviewed %}<br><small><strong>Last Reviewed:</strong>
+							{{policy.last_reviewed}}</small>{% endif %}
+					</td>
+				</tr>
+				{% endfor %}
+			</table>
+		</div>
   		<!-- Accounts -->
 		<div class='col10 pad4y center'>
 			<h2><a id='accounts' href='#accounts' class='truncate contain clearfix pad2 keyline-bottom'><span class="icon"
@@ -81,30 +104,6 @@
 				</tr> {% endfor %}
 				</table>
 				</div>
-				
-				<!-- Policies -->
-				<div class='col10 pad4y'>
-					<h2><a id='policies' href='#policies' class='truncate contain clearfix pad2 keyline-bottom'><span class="icon"
-								style="background-image: url({{site.baseurl}}/images/icons_gly/104-index-cards.png);"></span><span
-								class='prose'>HHS Policies & Documentation</span></a>
-					</h2>
-					<table>
-						{% for policy in site.data.policies %}
-						<tr>
-							<td style="text-align:center"><span class='logo'><img
-										src="{{site.baseurl}}/images/icons_gly/{{policy.icon}}.png" /></span>
-							</td>
-							<td style="text-align:center"><a href="{{site.baseurl}}/{{policy.url}}">{{policy.name}}</a>
-							</td>
-							<td>{{policy.description}}
-								{% if policy.document_number %}<br><small><strong>Document #:</strong>
-									{{policy.document_number}}</small>{% endif %}
-								{% if policy.last_reviewed %}<br><small><strong>Last Reviewed:</strong>
-									{{policy.last_reviewed}}</small>{% endif %}
-							</td>
-			    </tr>
-			{% endfor %} </table>
-    	</div>
     	
     </main>
     
