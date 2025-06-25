@@ -6,19 +6,15 @@ To add an HHS-related GitHub account, repo or page, edit the [_data/accounts](ht
 
 ###Running the site
 
-The site runs on [Jekyll](https://github.com/jekyll/jekyll). With Jekyll installed run, `jekyll serve` in terminal from the projects home directory and visit [localhost:4000](http://localhost:4000)
+The site runs on [Jekyll](https://github.com/jekyll/jekyll). Install dependencies using [Bundler](https://bundler.io/) and start the development server:
 
-###Installing Jekyll
+```
+bundle install
+bundle exec jekyll serve
+```
 
-- `gem install jekyll`
+Visit [localhost:4000](http://localhost:4000) when the server is running.
 
-__Dependencies:__
-
-- Rdiscount: `sudo gem install rdiscount`
-- Pygments: `sudo easy_install Pygments`
-
-More documentation on installing Jekyll and its dependencies at [Jekyll's installation's page](https://github.com/jekyll/jekyll/wiki/Install)
-
-## about HHS 
+## about HHS
 
 The United States Department of Health and Human Services (HHS) protects health and provides essential human services. HHS has 11 operating divisions, including 8 agencies in the US Public Health Service and 3 human services agencies that administer a wide variety of health and human services and conduct life-saving research for the nation. HHS has 17 staff offices that oversee operations and provide guidance on policy issues and program implementation. Learn more here: http://www.hhs.gov/about/

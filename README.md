@@ -8,18 +8,14 @@ To add an HHS-related GitHub account, repo or page, edit the [_data/accounts](ht
 
 ### Running the site
 
-The site runs on [Jekyll](https://github.com/jekyll/jekyll). With Jekyll installed run, `jekyll serve` in terminal from the projects home directory and visit [localhost:4000](http://localhost:4000)
+The site runs on [Jekyll](https://github.com/jekyll/jekyll). Install dependencies using [Bundler](https://bundler.io/) from the project directory:
 
-### Installing Jekyll
+```
+bundle install
+bundle exec jekyll serve
+```
 
-- `gem install jekyll`
-
-__Dependencies:__
-
-- Rdiscount: `sudo gem install rdiscount`
-- Pygments: `sudo easy_install Pygments`
-
-More documentation on installing Jekyll and its dependencies at [Jekyll's installation's page](https://github.com/jekyll/jekyll/wiki/Install)
+Visit [localhost:4000](http://localhost:4000) after the server starts.
 
 ## about HHS
 
