@@ -1,0 +1,7 @@
+- name: HHS Policy for the Information Collection Clearance Process
+  icon: 104-index-cards
+  url: docs/hhs-policy-information-collection-clearance-process.html
+  description: HHS policy governing the Information Collection Request (ICR) clearance process under the Paperwork Reduction Act (PRA).
+  document_number: HHS-OCIO-OES-2024-12-008
+  last_reviewed: 12/2024
+  category: Information Management
