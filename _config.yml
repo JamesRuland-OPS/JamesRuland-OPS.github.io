@@ -8,8 +8,8 @@ exclude:
   - data_store
   - pillbox-original-process
 baseurl: 
-pygments: true
+highlighter: rouge
 permalink: /:docs.html
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
+markdown: kramdown
+kramdown:
+  input: GFM

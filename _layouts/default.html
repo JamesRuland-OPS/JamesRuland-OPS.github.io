@@ -62,13 +62,13 @@
     	<!-- Repos -->
     	<div class='col10 pad4y'>
   			<h2><a id='repos' href='#repos' class='truncate contain clearfix pad2 keyline-bottom'><span class="icon" style="background-image: url(../{{site.baseurl}}/images/icons_gly/36-toolbox.png);"></span><span class='prose'>HHS-related GitHub Repositories</span></a>
-            </h2>
+			</h2>
 			<table>
 			  {% for repo in site.data.repos %}
 				<tr>
 		    		<td style="text-align:center"><span class='logo'><img src="{{site.baseurl}}/images/icons_gly/{{repo.icon}}.png" /></span>
 		    		</td>
-	    			<td style="text-align:center"><a href="https://github.com/{{account.github}}">{{repo.name}}</a>
+					<td style="text-align:center"><a href="https://github.com/{{repo.github}}">{{repo.name}}</a>
 	    			</td>
 					<td>{{repo.info}}
 					</td>		    
