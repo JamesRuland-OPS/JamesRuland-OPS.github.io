@@ -36,15 +36,11 @@
         		</a>
 			<a href='#repos' class='truncate contain clearfix pad2 keyline-bottom'><span class="icon"
 					style="background-image: url({{site.baseurl}}/images/icons_gly/36-toolbox.png);"></span>
-            	<span class='prose'>HHS-related GitHub Repositories</span>
-				</a> <a href='#policies' class='truncate contain clearfix pad2 keyline-bottom'><span class="icon"
+				<span class='prose'>HHS-related GitHub Repositories</span> </a> <a href='#policies'
+					class='truncate contain clearfix pad2'><span class="icon"
 						style="background-image: url({{site.baseurl}}/images/icons_gly/104-index-cards.png);"></span>
 					<span class='prose'>HHS Policies & Documentation</span>
-            	</a>
-			<a href='#toolkit' class='truncate contain clearfix pad2'><span class="icon"
-					style="background-image: url({{site.baseurl}}/images/icons_gly/181-hammer.png);"></span>
-            	<span class='prose'>HHS-related Developer Starter Tool Kit</span>
-          		</a>
+				</a>
   		</div>
   	</section>
     <!-- Middle section -->
@@ -107,18 +103,7 @@
 									{{policy.last_reviewed}}</small>{% endif %}
 							</td>
 			    </tr>
-		      {% endfor %}
-    		</table>
-    	</div>
-    	
-    	<!-- Toolkit -->
-		<div class='col12 pad4y' style='clear:both'>
-			<h2><a id='toolkit' href='#toolkit' class='truncate contain clearfix pad2 keyline-bottom'><span class="icon"
-						style="background-image: url({{site.baseurl}}/images/icons_gly/181-hammer.png);"></span>
-            	<span class='prose'>HHS-related Developer Starter Tool Kit</span>
-          		</a>
-            </h2>
-            <p>		*** Under construction ***</p>
+			{% endfor %} </table>
     	</div>
     	
     </main>
