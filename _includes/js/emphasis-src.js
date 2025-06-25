@@ -3,7 +3,7 @@
     Emphasis
     by Michael Donohoe (@donohoe)
     https://github.com/NYTimes/Emphasis
-    http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source
+    https://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source
 
     - - - - - - - - - -
 
@@ -14,7 +14,7 @@
 
     - - - - - - - - - -
 
-    Copyright (C) 2011 The New York Times (http://www.nytimes.com)
+    Copyright (C) 2011 The New York Times (https://www.nytimes.com)
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -354,7 +354,7 @@ jQuery(function($) {
         },
 
         ordinal: function(n) {
-            // http://en.wikipedia.org/wiki/Ordinal_number
+            // https://en.wikipedia.org/wiki/Ordinal_number
             var sfx = ['th','st','nd','rd'], 
                 val = n%100;
             return n + (sfx[(val-20)%10] || sfx[val] || sfx[0]);
@@ -362,7 +362,7 @@ jQuery(function($) {
 
         lev: function(a, b) {
             // Get the Levenshtein distance - a measure of difference between two sequences
-            // Based on http://andrew.hedges.name/experiments/levenshtein/levenshtein.js
+            // Based on https://andrew.hedges.name/experiments/levenshtein/levenshtein.js
             var m = a.length,
               n = b.length,
               r = [],

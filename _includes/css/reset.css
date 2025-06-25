@@ -1,6 +1,6 @@
 /**
  * Reset ==============================================================
- * Based on http://meyerweb.com/eric/tools/css/reset
+ * Based on https://meyerweb.com/eric/tools/css/reset
  */
 
 html,
@@ -131,7 +131,7 @@ body { font: 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif; }
 
 /*
 ** Markup free clearing
-** Details: http://www.positioniseverything.net/easyclearing.html
+** Details: https://www.positioniseverything.net/easyclearing.html
 */
 .clearfix:after {
   content: ".";
