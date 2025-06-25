@@ -8,7 +8,7 @@ To add an HHS-related GitHub account, repo or page, edit the [_data/accounts](ht
 
 ### Running the site
 
-The site runs on [Jekyll](https://github.com/jekyll/jekyll). Install dependencies using [Bundler](https://bundler.io/) from the project directory:
+The site runs on [Jekyll](https://github.com/jekyll/jekyll). Install dependencies using [Bundler](https://bundler.io/) from the project directory.
 
 ```
 bundle install
