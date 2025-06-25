@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <meta name='hhs.github.io' content='{{page.title}}' />
+    <title>{{page.title}} | HHS on GitHub</title>
+    <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
+    <link
+        href='https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700|Source+Sans+Pro:300,400|Roboto:400,100'
+        rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='{{site.baseurl}}/site.css' type='text/css' media='screen' />
+</head>
+
+<body data-offset='80'>
+    <!-- Header -->
+    <header class="masthead col12 clearfix row2 keyline-bottom">
+        <div class="limiter clearfix">
+            <a href='{{site.baseurl}}/'>
+                <h1 class='col6 pad1y logo'><span class='logo hhs-lg'></span><span class='logo text'>HHS on
+                        GitHub</span></h1>
+            </a>
+            <div class="nav col8 nav-header" class="col2 text-right pad2y contain clearfix noprint ">
+                <a class='pad2 keyline-right' href='https://github.com/HHS/hhs.github.io/README.md'>About</a>
+                <a class='pad2' href='https://github.com/HHS/hhs.github.io/issues?state=open'>Issues</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Content section -->
+    <main class='limiter pad2y clearfix'>
+        <div class='col12 pad4y'>
+            <div class='contain clip limiter row12 clearfix'>
+                <div class='col12'>
+                    <article class='policy-document'>
+                        <h1>{{page.title}}</h1>
+                        {% if page.document_number %}
+                        <div class='document-metadata'>
+                            <p><strong>Document #:</strong> {{page.document_number}}</p>
+                            {% if page.version %}<p><strong>Version:</strong> {{page.version}}</p>{% endif %}
+                            {% if page.last_reviewed %}<p><strong>Last Reviewed:</strong> {{page.last_reviewed}}</p>{%
+                            endif %}
+                            {% if page.next_review %}<p><strong>Next Review:</strong> {{page.next_review}}</p>{% endif
+                            %}
+                            {% if page.owner %}<p><strong>Owner:</strong> {{page.owner}}</p>{% endif %}
+                            {% if page.approved_by %}<p><strong>Approved By:</strong> {{page.approved_by}}</p>{% endif
+                            %}
+                        </div>
+                        {% endif %}
+                        <div class='document-content'>
+                            {{content}}
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <div class='content-footer'>
+        <div class='limiter col12 clearfix'>
+            <span class='hhs-sm'></span>
+            <h6>hhs.github.io is a resource of the <a href='http://hhs.gov'>U.S. Department of Health and Human
+                    Services</a>.
+                <a href="http://www.glyphish.com"><span class='glyphish-attrib-logo'></span></a>
+                <span class='glyphish-attrib'>Icons by </span>
+            </h6>
+        </div>
+    </div>
+
+</body>
+
+</html>
