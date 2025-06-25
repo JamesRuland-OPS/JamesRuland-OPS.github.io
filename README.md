@@ -23,5 +23,5 @@ More documentation on installing Jekyll and its dependencies at [Jekyll's instal
 
 ## about HHS
 
-The United States Department of Health and Human Services (HHS) protects health and provides essential human services. HHS has 11 operating divisions, including 8 agencies in the US Public Health Service and 3 human services agencies that administer a wide variety of health and human services and conduct life-saving research for the nation. HHS has 17 staff offices that oversee operations and provide guidance on policy issues and program implementation. Learn more here: <http://www.hhs.gov/about/>
+The United States Department of Health and Human Services (HHS) protects health and provides essential human services. HHS has 11 operating divisions, including 8 agencies in the US Public Health Service and 3 human services agencies that administer a wide variety of health and human services and conduct life-saving research for the nation. HHS has 17 staff offices that oversee operations and provide guidance on policy issues and program implementation. Learn more here: <https://www.hhs.gov/about/>
 For more details see [documentation](docs/README.md).
