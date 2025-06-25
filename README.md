@@ -1,3 +1,5 @@
+![HHS Logo](images/logos/hhs-lg.png)
+
 ## hhs.github.io
 
 Landing page to direct visitors to HHS-related GitHub accounts, repositories and pages that are maintained under various names by HHS operating divisions, and staff offices. HHS, as an umbrella organization, has its own GitHub organizational account (github.com/hhs) that hosts repos, and this GitHub.io page. This site's code is publicly available.
@@ -22,3 +24,4 @@ More documentation on installing Jekyll and its dependencies at [Jekyll's instal
 ## about HHS 
 
 The United States Department of Health and Human Services (HHS) protects health and provides essential human services. HHS has 11 operating divisions, including 8 agencies in the US Public Health Service and 3 human services agencies that administer a wide variety of health and human services and conduct life-saving research for the nation. HHS has 17 staff offices that oversee operations and provide guidance on policy issues and program implementation. Learn more here: http://www.hhs.gov/about/
+For more details see [documentation](docs/README.md).
