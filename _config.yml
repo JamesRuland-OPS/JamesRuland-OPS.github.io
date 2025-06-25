@@ -1,5 +1,3 @@
-auto: true
-server: true
 exclude:
   - README.md
   - api
@@ -7,7 +5,8 @@ exclude:
   - bin
   - data_store
   - pillbox-original-process
-baseurl: 
+baseurl:
+livereload: true
 highlighter: rouge
 permalink: /:docs.html
 markdown: kramdown
